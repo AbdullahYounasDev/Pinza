@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinza Sushi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="container-fluid px-0 overflow-hidden ">
+        <!-- Header -->
+
+        <div class="container-fluid bg-white shadow ">
+            <nav class="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img class="img-fluid" src="Images/Group 80.png" alt=""></a>
+                    <div class="d-none d-lg-flex justify-content-between align-items-center gap-2">
+                        <p class="poppins m-0 fw-medium p-fs24">COMMANDER</p>
+                        <div class="nav-line mx-2"></div>
+                        <p class="poppins m-0 fw-medium p-fs24">NORTE RESTURANT</p>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <p class="inter m-0 p-fs24 fw-bold text-orange text-center">
+                            <img class="me-2 " src="Images/Group 1.png" alt="">
+                            010.12.256.65
+                        </p>
+                    </div>
+
+                    <div class="d-flex justify-content-center align-items-center">
+                        <!-- Profile Btn -->
+                        <button class="btn position-relative bg-transparent border-0 shadow-none" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                            aria-controls="offcanvasExample">
+                            <img src="Images/Mask group-1.png" alt="">
+                        </button>
+
+                        <div class="offcanvas offcanvas-start profCanva" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <p class="offcanvas-title poppins m-0 fw-medium p-fs24" id="offcanvasRightLabel">Profile
+                                </p>
+                                <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="row">
+                                    <div class="col-5"><img class="p-img rounded-circle object-fit-cover border-orange"
+                                            src="Images/man.png" alt=""></div>
+                                    <div class="col-7 p-3 ps-5">
+                                        <p class="itim p-fs24 fw-bold color-black m-0 ">Jon Doe</p>
+                                        <button
+                                            class="itim p-fs20 text-white py-1 px-4 border-0 rounded-pill my-2 me-1">Log
+                                            Out</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cart Btn -->
+                        <button class="btn position-relative bg-transparent border-0 shadow-none" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight"><img src="Images/Mask group-2.png" alt=""></button>
+
+                        <div class="offcanvas offcanvas-end CartCanva" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <p class="offcanvas-title poppins m-0 fw-medium p-fs24" id="offcanvasRightLabel">Cart
+                                </p>
+                                <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="card">
+                                    <div class="container-fluid ">
+                                        <div class="row justify-content-center align-items-center py-3">
+                                            <div class="col-4">
+                                                <img class="img-fluid " src="Images/pngwing.png" alt="">
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-6 d-flex flex-column gap-3">
+                                                        <p class="itim p-fs18 fw-bold color-black m-0 ">Cappa maki</p>
+                                                        <div
+                                                            class="col-6 d-flex justify-content-start align-items-center">
+                                                            <button type="button"
+                                                                class="shadow-none itim text-white px-2 rounded fs-5 border-0">+</button>
+                                                            <span
+                                                                class="border border-2 px-2 py-1 m-1 bg-light">1</span>
+                                                            <button type="button"
+                                                                class="shadow-none itim text-white px-2 rounded fs-5 border-0">-</button>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-6 col-6 d-flex flex-column gap-3 justify-content-around">
+                                                        <p class="poppins m-0 fw-medium p-fs18">$ 14.2</p>
+                                                        <button class="itim px-2  fs-5 text-white border-0 rounded">Buy
+                                                            Now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- NavBar Toggle Btn -->
+                        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon color-black border-0 shadow-none"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <a class="navbar-brand" href="#"><img class="w-50" src="Images/Group 80.png" alt=""></a>
+                                <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- offcanva body -->
+                                <div
+                                    class="d-flex d-lg-none justify-content-between align-items-center gap-2 my-lg-0 my-3">
+                                    <p class="poppins m-0 fw-medium p-fs24 p-sm-fs20">COMMANDER</p>
+                                    <div class="nav-line mx-2"></div>
+                                    <p class="poppins m-0 fw-medium p-fs24">NORTE RESTURANT</p>
+                                </div>
+                                <div class="d-block d-lg-none my-lg-0 my-3">
+                                    <p class="inter m-0 p-fs24 fw-bold text-orange text-center">
+                                        <img class="me-2 " src="Images/Group 1.png" alt="">
+                                        010.12.256.65
+                                    </p>
+                                </div>
+                                <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active itim text-black fs-5" aria-current="page"
+                                            href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active itim text-black fs-5" aria-current="page"
+                                            href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active itim text-black fs-5" aria-current="page"
+                                            href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row gap-lg-3 gap-1 ">
+
+            <!-- Hero Section -->
+            <div class="col-12">
+                <div class="container hero-cont my-lg-5 py-lg-5 ">
+                    <div class="row">
+                        <div
+                            class="col-lg-6 col-md-12 d-flex d-lg-block justify-content-center align-items-center flex-column">
+                            <h1 class="itim text-black text-center text-lg-start">Dive Into A <div class="text-orange">
+                                    Symphony of
+                                    flavour</div>
+                            </h1>
+                            <div>
+                                <button class="itim fw-4 text-white py-2 px-4 border-0 rounded-pill my-5 me-3">Order
+                                    Now</button>
+                                <button class="itim fw-3 text-white py-2 px-4 border-0 rounded-pill my-5 "><img
+                                        src="Images/call.png" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 ">
+                            <img class="mx-auto d-block img-fluid" src="Images/pngwing 4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Section -->
+            <div class="col-12">
+                <div class="contianer-fluid py-5 mt-5 position-relative">
+                    <div class="line-1 d-none d-lg-block w-75 rounded-end start-0 position-absolute"></div>
+                    <div class="line-2 d-none d-lg-block rounded position-absolute"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 pt-5 d-none d-lg-block">
+                                <img class="mt-4 position-absolute start-0 z-n1" src="Images/Group 81.png" alt="">
+                            </div>
+                            <div
+                                class="col-lg-7 col-md-12  d-flex d-lg-block justify-content-center align-items-center flex-column">
+                                <h2 class="itim text-black text-center text-lg-start">We provide a <span
+                                        class="text-orange">healthy sushi</span>
+                                </h2>
+                                <p class="p-fs24 my-5 text-black text-center text-lg-start">We are pssionate about
+                                    serving the healhty sushi
+                                    and
+                                    nutritious food. our commitment to your well being drives
+                                    us to carefully.
+                                </p>
+                                <button class="itim fw-4 text-white py-2 px-4 border-0 rounded-pill">View menu</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid py-5 mb-5 position-relative">
+                        <img class="second-sec-last-img position-absolute end-0 z-n1" src="Images/pngwing 3.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Section -->
+            <div class="col-12">
+                <div class="container-fluid third-sec pt-1 pb-5">
+                    <div class="container text-lg-center third-sub-sec ">
+                        <h2 class="itim text-black my-4 text-center text-lg-start">Our <span
+                                class="text-orange">ingredients</span></h2>
+                        <div class="row">
+                            <div class="col-lg-4 d-flex justify-content-around align-items-center flex-column">
+                                <h2 class="h2-fs60 pb-3 position-relative itim text-black my-3">Wasabi <span
+                                        class="text-orange">Fish</span></h2>
+                                <h2 class="h2-fs60 pb-3 position-relative itim text-black my-3">Salmon <span
+                                        class="text-orange">Fish</span></h2>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                                <img class="my-3" src="Images/Group 82.png" alt="">
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-around align-items-center flex-column">
+                                <h2 class="h2-fs60 pb-3 position-relative itim text-black my-3">Wasabi <span
+                                        class="text-orange">Rice</span></h2>
+                                <h2 class="h2-fs60 pb-3 position-relative itim text-black my-3">Fresh <span
+                                        class="text-orange">Prawn</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fourth Section -->
+            <div class="col-12">
+                <div
+                    class="container  mt-5 py-3 d-flex justify-content-center align-items-center flex-column position-relative">
+                    <img class="fourth-sec-img position-absolute d-none d-lg-block" src="Images/pngwing 7.png" alt="">
+                    <h2 class="text-black itim text-center">The best sushi delight.<br class="d-none d-lg-block"> <span
+                            class="text-orange itim text-center mb-5">Sashimi and more</span></h2>
+                    <h2 class="text-orange itim text-center mb-5"></h2>
+                    <div class="container">
+                        <div class="row py-5">
+                            <div class="col-lg-4 col-md-6 p-4">
+                                <div class="container-fluid border border-2 border-black rounded-4 pt-4 ps-3 ">
+                                    <div>
+                                        <img class="img-fluid mx-auto d-block" src="Images/pngwing-1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="itim text-black ">ikura maki</h3>
+                                        <p class="itim p-fs20  text-black">Rice, Nori, cheese,<br>
+                                            Red cavier</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="p-fs32 text-black itim">$ 14.2</p>
+                                            </div>
+                                            <div class=" col-6 d-flex justify-content-center align-items-center">
+                                                <img class="star-img" src="Images/star.png" alt="">
+                                                <p class="p-fs20 itim text-black text-center">5.0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 p-4 pt-lg-5">
+                                <div class="container-fluid border border-2 border-black rounded-4 pt-4 ps-3 mt-lg-5 ">
+                                    <div>
+                                        <img class="img-fluid mx-auto d-block" src="Images/pngwing.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="itim text-black ">Cappa maki</h3>
+                                        <p class="itim p-fs20  text-black">Rice, Nori, cheese,<br>
+                                            Cucumber</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="p-fs32 text-black itim">$ 14.2</p>
+                                            </div>
+                                            <div class=" col-6 d-flex justify-content-center align-items-center">
+                                                <img class="star-img" src="Images/star.png" alt="">
+                                                <p class="p-fs20 itim text-black text-center">5.0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 p-4 ">
+                                <div class="container-fluid border border-2 border-black rounded-4 pt-4 ps-3 ">
+                                    <div>
+                                        <img class="img-fluid mx-auto d-block" src="Images/pngwing-2.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="itim text-black ">ikura maki</h3>
+                                        <p class="itim p-fs20  text-black">Rice, Nori, cheese,<br>
+                                            Red cavier</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="p-fs32 text-black itim">$ 14.2</p>
+                                            </div>
+                                            <div class=" col-6 d-flex justify-content-center align-items-center">
+                                                <img class="star-img" src="Images/star.png" alt="">
+                                                <p class="p-fs20 itim text-black text-center">5.0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="itim fw-4 text-white py-2 px-4 border-0 rounded-pill my-5">Explore full menu</button>
+                </div>
+            </div>
+
+            <!-- Fifth Section -->
+            <div class="col-12">
+                <div class="container p-5 mt-5 fifth-sec rounded-5 ">
+                    <div
+                        class="container text-center fifth-sub-sec d-flex justify-content-center align-items-center flex-column gap-3">
+                        <h2 class="itim text-black">
+                            Ready to try our <span class="text-orange">sushi kit</span>
+                        </h2>
+                        <p class="p-fs24 poppins text-black my-lg-4">
+                            We are pssionate about serving the healhty sushi and<br class="d-none d-lg-block">
+                            nutritious food. our commitment to your well being drives<br class="d-none d-lg-block">
+                            us to carefully.
+                        </p>
+                        <button class="itim fw-4 text-white py-2 px-4 border-0 rounded-pill">Order Now</button>
+                        <div class="position-relative container-fluid">
+                            <img class="fifth-sec-first-img position-absolute d-none d-lg-block z-n1"
+                                src="Images/pngwing 11.png" alt="">
+                            <img class="fifth-sec-second-img position-absolute d-none d-lg-block z-n1"
+                                src="Images/pngwing 12.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Section -->
+            <div class="col-12">
+                <div class="container">
+                    <div class="row py-5">
+                        <div
+                            class="col-lg-4 text-center d-flex justify-content-start align-items-center flex-column mt-3">
+                            <h5 class="itim text-black mt-2">Location</h5>
+                            <p class="poppins p-fs24 text-orange mt-4 mb-0">3 run lech walese
+                            </p>
+                            <p class="poppins p-fs24 text-orange">94257 le kermlin-Bicetre
+                            </p>
+                        </div>
+                        <div
+                            class="col-lg-4 text-center d-flex justify-content-start align-items-center flex-column mt-3">
+                            <h5 class="itim text-black mt-2">Application</h5>
+                            <div>
+                                <button class="bg-transparent border-0 shadow-none mt-4"><img src="Images/Group 15.png"
+                                        alt=""></button>
+                                <button class="bg-transparent border-0 shadow-none mt-4"><img src="Images/Group 14.png"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-center align-items-center flex-row mt-4">
+                            <button class="bg-transparent border-0 shadow-none"><img src="Images/Mask group4.png"
+                                    alt=""></button>
+                            <button class="bg-transparent border-0 shadow-none"><img src="Images/Mask group1.png"
+                                    alt=""></button>
+                            <button class="bg-transparent border-0 shadow-none"><img src="Images/Mask group3.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                    <div class="container-fluid bg-orange rounded-pill p-1"></div>
+                    <div class="container-fluid py-3">
+                        <p class="p-fs20 text-orange text-center">&copy; 2023 - 2024 PINZA. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
